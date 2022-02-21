@@ -7,7 +7,7 @@ const App = (props) => {
 
     React.createElement("h2",{},props.name),
     React.createElement("h3",{},props.realize_date),
-    React.createElement("h4",{},props.director),
+    React.createElement("h4",{},props.director)
 ])
 
 }
