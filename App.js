@@ -4,7 +4,7 @@ const App = () => {
         {},
         [
    
-React.createElement("div",{},[
+
     React.createElement("h2",{},"test1"),
     React.createElement("h3",{},"test2"),
     React.createElement("h4",{},"test3"),
