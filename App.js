@@ -9,8 +9,7 @@ const App = () => {
     React.createElement("h3",{},"test2"),
     React.createElement("h4",{},"test3"),
 ])
-        ]
-);
+
 }
 
 
