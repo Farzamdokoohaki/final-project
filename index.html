@@ -8,12 +8,13 @@
 </head>
 <body>
     <div id="root">not render!</div>
-    <script src="https://unpkg.com/browse/react@17.0.2/umd/react.development.js"></script>
-    <script src="https://unpkg.com/browse/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
 <script>
 const App = () => {
    return React.creatElement('div',{},React.creatElement('h1',{},'Hello'));
 };
+ReactDOM.render(React.creatElement(App),document.getElementById('root'));
 </script>
 </body>
 </html>
