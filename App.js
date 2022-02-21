@@ -17,9 +17,9 @@ const App = () => {
         {},
         [
             React.createElement("h1",{id : "my-values"},"my films"),
-            React.createElement(App,{name: "inception", realize_date:"2009", director:"nolan"}),
-            React.createElement(App,{name: "inception", realize_date:"2009", director:"nolan"}),
-            React.createElement(App,{name: "inception", realize_date:"2009", director:"nolan"})
+            React.createElement(renderText,{name: "inception", realize_date:"2009", director:"nolan"}),
+            React.createElement(renderText,{name: "inception", realize_date:"2009", director:"nolan"}),
+            React.createElement(renderText,{name: "inception", realize_date:"2009", director:"nolan"})
         ]
     );
 }
