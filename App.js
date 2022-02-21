@@ -1,4 +1,4 @@
-const App = (props) => {
+const renderText = (props) => {
     return React.createElement(
         "div",
         {},
@@ -11,7 +11,7 @@ const App = (props) => {
 ])
 
 }
-const renderText = () => {
+const App = () => {
     return React.createElement(
         "div",
         {},
@@ -20,7 +20,9 @@ const renderText = () => {
             React.createElement(App,{name: "inception", realize_date:"2009", director:"nolan"}),
             React.createElement(App,{name: "inception", realize_date:"2009", director:"nolan"}),
             React.createElement(App,{name: "inception", realize_date:"2009", director:"nolan"})
-
+        ]
+    );
+}
 
 
 
