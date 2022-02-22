@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Farzamdokoohaki/final-project/issues"
   },
-  "homepage": "https://github.com/Farzamdokoohaki/final-project#readme"
+  "homepage": "https://github.com/Farzamdokoohaki/final-project#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3"
+  }
 }
